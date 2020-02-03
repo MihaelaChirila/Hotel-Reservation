@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>Search Available Rooms</title>
+    <link rel="stylesheet" type="text/css" href="default.css">
+
+    <style>
+        a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+            border: 1px solid #000000;
+        }
+
+        /* Change the link color on hover */
+        a:hover {
+            background-color: #555;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<br>
+<center>
+    <h2>Availability of Bookings</h2>
+    <br>
+    <form action="SearchByAvailableJSP.jsp">
+
+        <label for="checkin">Check In Date ( YYYY-MM-DD ):</label>
+        <input type="text" placeholder="Check In Date" name="checkin">
+
+        <br><br>
+
+        <label for="checkout">Check Out Date (YYYY-MM-DD):</label>
+        <input type="text" placeholder="Check Out Date" name="checkout">
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <a style="width: 40px" href='index.jsp'>Home</a><br>
+</center>
+
+</body>
+</html>
